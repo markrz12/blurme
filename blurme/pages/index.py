@@ -14,7 +14,7 @@ def index() -> rx.Component:
         The UI for the home page.
     """
     return rx.vstack(
-        rx.heading("Witaj w BlurMe!", font_size="3em", margin_bottom="20px"),
+        rx.heading("Witaj w BlurMe!", font_size="3em", margin_bottom="25px", background_image="linear-gradient(271.68deg, #7566fe 0.75%, #f96caf 88.52%)", background_clip="text", padding = "10px"),
         rx.text("Dlaczego Blurme?", font_size="1.5em", font_weight="bold", margin_top="10px", margin_bottom="10px"),
         rx.list(
             rx.list_item(rx.text("Prywatność: ",as_="b"), "Nasza aplikacja zapewnia pełną ochronę prywatności, eliminując ryzyko identyfikacji osób niezwiązanych z anonimizacją."),
